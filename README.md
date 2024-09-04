@@ -1,2 +1,3 @@
-# easy-util
-easy-util
+# easyutils
+
+easyutils

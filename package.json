@@ -1,0 +1,26 @@
+{
+    "name": "easyutils",
+    "version": "1.0.0",
+    "description": "easy utils ",
+    "main": "index.js",
+    "repository": "https://github.com/liuarui/easyutils.git",
+    "author": "liuwenrui597@qq.com",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
+        "@babel/preset-typescript": "^7.24.7",
+        "@jest/globals": "^29.7.0",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^22.5.3",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    },
+    "scripts": {
+        "test": "jest"
+    }
+}
