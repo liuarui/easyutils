@@ -1,4 +1,4 @@
-import { validateChineseIDCard } from './validateChineseIDCard';
+import { validateChineseIDCard } from '@/main';
 
 test('validateChineseIDCard', () => {
     expect(validateChineseIDCard('513701199305091010')).toBe(true);

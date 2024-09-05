@@ -1,4 +1,4 @@
-import { validateChinesePhoneNumber } from './validateChinesePhoneNumber';
+import { validateChinesePhoneNumber } from '@/main';
 
 test('validateChinesePhoneNumber', () => {
     expect(validateChinesePhoneNumber('13333333333')).toBe(true);

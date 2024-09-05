@@ -2,7 +2,7 @@
     "name": "easyutils",
     "version": "1.0.0",
     "description": "easy utils ",
-    "main": "index.js",
+    "main": "./src/main.ts",
     "repository": "https://github.com/liuarui/easyutils.git",
     "author": "liuwenrui597@qq.com",
     "license": "MIT",
