@@ -1,8 +1,6 @@
 export function getUrlQueryParams(key: string) {
     if (typeof window === 'undefined') {
-        console.error(
-            'This function can only be used in a browser environment'
-        );
+        console.error('This function can only be used in a browser environment');
         return '';
     }
 

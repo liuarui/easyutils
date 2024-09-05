@@ -8,16 +8,14 @@ describe('getUrlQueryParams', () => {
 
     it('should return an empty string if window is undefined', () => {
         const originalWindow = global.window;
-        const consoleErrorSpy = jest
-            .spyOn(console, 'error')
-            .mockImplementation();
+        const consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation();
 
         // @ts-ignore
         delete global.window;
         const result = getUrlQueryParams('key');
         expect(result).toBe('');
         expect(consoleErrorSpy).toHaveBeenCalledWith(
-            'This function can only be used in a browser environment'
+            'This function can only be used in a browser environment',
         );
 
         global.window = originalWindow;
