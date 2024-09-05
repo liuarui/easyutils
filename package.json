@@ -1,9 +1,10 @@
 {
     "name": "lm-easyutils",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "easy utils ",
     "main": "./dist/main.js",
-    "types": "./dist/index.d.ts",
+    "module": "./dist/main.js",
+    "types": "./dist/main.d.ts",
     "type": "module",
     "repository": "https://github.com/liuarui/easyutils.git",
     "author": "liuwenrui597@qq.com",
