@@ -9,10 +9,7 @@
     "author": "liuwenrui597@qq.com",
     "license": "MIT",
     "sideEffects": false,
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:liuarui/easyutils.git"
-    },
+    "repository": "git@github.com:liuarui/easyutils.git",
     "scripts": {
         "dev": "jest --watch",
         "build": "tsc",
@@ -44,5 +41,6 @@
     },
     "dependencies": {
         "lm-easyutils": "file:"
-    }
+    },
+    "private": false
 }
