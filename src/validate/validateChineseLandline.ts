@@ -1,4 +1,4 @@
-import { chineseLandlineRegex } from '@/constants';
+const chineseLandlineRegex = /^0\d{2,3}(-\d{7,8})(-\d{1,6})?$/;
 
 /**
  * 验证是否为有效的中国座机号码
