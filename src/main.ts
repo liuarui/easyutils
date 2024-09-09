@@ -1,5 +1,15 @@
-export { validateChineseIDCard } from './validate/validateChineseIDCard';
-export { validateChinesePhoneNumber } from './validate/validateChinesePhoneNumber';
-export { validateChinesePhoneAndLandline } from './validate/validateChinesePhoneAndLandline';
-export { getUrlSearchParams } from './handler/getUrlSearchParams';
-export { getUrlQueryParams } from './handler/getUrlQueryParams';
+import { getUrlQueryParams } from './handler/getUrlQueryParams';
+import { getUrlSearchParams } from './handler/getUrlSearchParams';
+import { validateChineseIDCard } from './validate/validateChineseIDCard';
+import { validateChineseLandline } from './validate/validateChineseLandline';
+import { validateChinesePhoneAndLandline } from './validate/validateChinesePhoneAndLandline';
+import { validateChinesePhoneNumber } from './validate/validateChinesePhoneNumber';
+
+export {
+    getUrlQueryParams,
+    getUrlSearchParams,
+    validateChineseIDCard,
+    validateChineseLandline,
+    validateChinesePhoneAndLandline,
+    validateChinesePhoneNumber,
+};
