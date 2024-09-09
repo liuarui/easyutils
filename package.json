@@ -18,7 +18,7 @@
         "build": "tsc",
         "test": "jest",
         "coverage": "jest --coverage",
-        "coveralls": "jest --coverage && coveralls < coverage/lcov.info",
+        "coveralls": "jest --coverage && coveralls < ./coverage/lcov.info",
         "prettier": "prettier -w ./**/*.ts"
     },
     "files": [
