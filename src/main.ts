@@ -1,3 +1,4 @@
+import { createWatermark, destroyWatermark } from './biz/watermark';
 import { getUrlQueryParams } from './handler/getUrlQueryParams';
 import { getUrlSearchParams } from './handler/getUrlSearchParams';
 import { validateChineseIDCard } from './validate/validateChineseIDCard';
@@ -8,6 +9,8 @@ import { validateEmail } from './validate/validateEmail';
 import { validateIP, validateIPV4, validateIPV6 } from './validate/validateIP';
 
 export {
+    createWatermark,
+    destroyWatermark,
     getUrlQueryParams,
     getUrlSearchParams,
     validateChineseIDCard,
