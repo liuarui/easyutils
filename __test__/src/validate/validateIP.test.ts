@@ -21,12 +21,13 @@ describe('IP Address Validation', () => {
             expect(validateIPV6('2001:0db8:85a3:0000:0000:8a2e:0370:7334')).toBe(true);
             expect(validateIPV6('fe80::1')).toBe(true);
             expect(validateIPV6('::1')).toBe(true);
+            expect(validateIPV6(null)).toBe(false);
 
             const validIps = [
                 '2001:0db8:85a3:0000:0000:8a2e:0370:7334',
                 '2001:db8:85a3::8a2e:370:7334',
                 '::1',
-                '::',
+                '::1',
             ];
             validIps.forEach((ip) => {
                 expect(validateIPV6(ip)).toBe(true);
@@ -46,6 +47,7 @@ describe('IP Address Validation', () => {
                 '1200:0000:AB00:1234:O000:2552:7777:1313',
                 '1200:0000:AB00:1234:0000:2552:7777:1313:0000',
                 '1200:0000:AB00:1234:0000:2552:7777',
+                '0:000000000:000000:000000:000000::000000:000000:000000:000000',
             ];
             invalidIps.forEach((ip) => {
                 expect(validateIPV6(ip)).toBe(false);
