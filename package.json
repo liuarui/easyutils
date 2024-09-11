@@ -1,10 +1,10 @@
 {
     "name": "lm-easyutils",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "description": "easy utils ",
-    "main": "./dist/main.js",
-    "module": "./dist/main.js",
-    "types": "./dist/main.d.ts",
+    "main": "main.js",
+    "module": "main.js",
+    "types": "main.d.ts",
     "type": "module",
     "author": "liuwenrui597@qq.com",
     "license": "MIT",
@@ -15,15 +15,10 @@
         "valid": "cd playground && http-server",
         "lint": "eslint --fix ./**/*.ts",
         "build": "tsc",
+        "release": "tsc && sh ./build/publish.sh",
         "test": "jest",
         "coverage": "jest --coverage"
     },
-    "files": [
-        "dist",
-        "LICENSE",
-        "README.md",
-        "package.json"
-    ],
     "devDependencies": {
         "@babel/core": "^7.25.2",
         "@babel/preset-env": "^7.25.4",

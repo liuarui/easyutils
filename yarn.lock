@@ -3332,7 +3332,7 @@ lines-and-columns@^1.1.6:
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
 "lm-easyutils@file:":
-  version "0.2.1"
+  version "0.2.3"
   resolved "file:"
   dependencies:
     "@types/lodash-es" "4.17.12"

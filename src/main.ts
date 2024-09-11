@@ -1,3 +1,5 @@
+import dayjs from 'dayjs';
+
 import { createWatermark, destroyWatermark } from './biz/watermark';
 import { getUrlQueryParams } from './handler/getUrlQueryParams';
 import { getUrlSearchParams } from './handler/getUrlSearchParams';
@@ -8,8 +10,10 @@ import { validateChinesePhoneNumber } from './validate/validateChinesePhoneNumbe
 import { validateEmail } from './validate/validateEmail';
 import { validateIP, validateIPV4, validateIPV6 } from './validate/validateIP';
 
+export * from 'lodash-es';
 export {
     createWatermark,
+    dayjs,
     destroyWatermark,
     getUrlQueryParams,
     getUrlSearchParams,
