@@ -11,7 +11,6 @@ import { validateChinesePhoneNumber } from './validate/validateChinesePhoneNumbe
 import { validateEmail } from './validate/validateEmail';
 import { validateIP, validateIPV4, validateIPV6 } from './validate/validateIP';
 
-export * from 'lodash-es';
 export {
     copyText,
     createWatermark,
@@ -28,3 +27,5 @@ export {
     validateIPV4,
     validateIPV6,
 };
+
+export * from 'lodash-es';

@@ -16,13 +16,12 @@
         "strict": true /* Enable all strict type-checking options. */,
         "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
-        "types": ["dayjs", "lodash-es"],
+        "types": ["dayjs", "lodash-es", "jest", "node"],
         "paths": {
             "@/*": ["src/*"]
         },
 
         "skipLibCheck": true /* Skip type checking all .d.ts files. */
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules"]
+    "include": ["src/**/*", "__test__/**/*"]
 }

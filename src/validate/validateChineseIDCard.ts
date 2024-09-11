@@ -48,6 +48,5 @@ export function validateChineseIDCard(id: string): boolean {
     if (id.length === 18) {
         return validateChecksum(id);
     }
-
     return false;
 }
