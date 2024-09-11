@@ -1,6 +1,7 @@
 import dayjs from 'dayjs';
 
 import { createWatermark, destroyWatermark } from './biz/watermark';
+import { copyText } from './handler/copyText';
 import { getUrlQueryParams } from './handler/getUrlQueryParams';
 import { getUrlSearchParams } from './handler/getUrlSearchParams';
 import { validateChineseIDCard } from './validate/validateChineseIDCard';
@@ -12,6 +13,7 @@ import { validateIP, validateIPV4, validateIPV6 } from './validate/validateIP';
 
 export * from 'lodash-es';
 export {
+    copyText,
     createWatermark,
     dayjs,
     destroyWatermark,

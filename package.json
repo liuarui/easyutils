@@ -1,6 +1,6 @@
 {
     "name": "lm-easyutils",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "easy utils ",
     "main": "main.js",
     "module": "main.js",
@@ -46,6 +46,7 @@
     "dependencies": {
         "@types/lodash-es": "4.17.12",
         "dayjs": "1.11.13",
+        "easycopyjs": "^1.0.2",
         "lm-easyutils": "file:",
         "lodash-es": "4.17.21"
     },

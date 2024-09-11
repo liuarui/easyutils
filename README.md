@@ -26,3 +26,5 @@
 -   getUrlQueryParams
 
 -   getUrlSearchParams
+
+-   copyText
